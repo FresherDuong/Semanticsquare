@@ -1,9 +1,6 @@
 package com.semanticsquare.thrillio;
 
-import com.semanticsquare.thrillio.constants.BookGenre;
-import com.semanticsquare.thrillio.constants.Gender;
-import com.semanticsquare.thrillio.constants.MovieGenre;
-import com.semanticsquare.thrillio.constants.UserType;
+import com.semanticsquare.thrillio.constants.*;
 import com.semanticsquare.thrillio.entities.*;
 import com.semanticsquare.thrillio.managers.BookmarkManager;
 import com.semanticsquare.thrillio.managers.UserManager;
