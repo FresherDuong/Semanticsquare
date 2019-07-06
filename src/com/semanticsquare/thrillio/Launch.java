@@ -24,7 +24,7 @@ public class Launch {
     }
 
     private static void loadData(){
-        System.out.println("Loading data ...");
+        System.out.println("**Loading data ...");
         DataStore.loadData();
 
         users = UserManager.getInstance().getUser();
@@ -36,7 +36,15 @@ public class Launch {
         printBookmarkData();
     }
 
+    public static void startBookmarking(){
+        System.out.println("\n**Bookmarking ...");
+        for (User items: users) {
+            View.bookmark(items,bookmarks);
+        }
+    }
+
     public static void main(String[] args) {
         loadData();
+        startBookmarking();
     }
 }
