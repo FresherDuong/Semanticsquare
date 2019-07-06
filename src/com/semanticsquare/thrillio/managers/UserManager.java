@@ -1,9 +1,11 @@
 package com.semanticsquare.thrillio.managers;
 
+import com.semanticsquare.thrillio.dao.UserDao;
 import com.semanticsquare.thrillio.entities.User;
 
-public class UserManager {
+public class UserManager { //JVM loads class to mem and also initializes fields
     private static UserManager instance = new UserManager();
+    private static UserDao dao = new UserDao(); // Singleton is stateless - static
 
     private UserManager() {
     }
@@ -24,4 +26,13 @@ public class UserManager {
         user.setUserType(userType);
         return user;
     }
+
+    public User[] getUser(){
+        return dao.getUser();
+    }
+
 }
+
+/*
+* MVC - View --> Control --> Model(Manager --> Dao)
+* */
