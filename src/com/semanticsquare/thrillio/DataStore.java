@@ -51,7 +51,7 @@ public class DataStore {
         bookmarks[1][1] = BookmarkManager.getInstance().createMovie(3001,"The Grapes of Wrath",1940, new String[]{"Henry Fonda","Jane Darwell"}, new String[]{"John Ford"}, MovieGenre.CLASSICS, 8.2);
         bookmarks[1][2] = BookmarkManager.getInstance().createMovie(3002,"A Touch of Greatness",2004, new String[]{"Albert Cullum"}, new String[]{"Leslie Sullivan"}, MovieGenre.DOCUMENTARIES, 7.3);
         bookmarks[1][3] = BookmarkManager.getInstance().createMovie(3003,"The Big Bang Theory",2007, new String[]{"Kaley Cuoco","Jim Parsons"}, new String[]{"Chuck Lorre","Bill Prady"}, MovieGenre.TV_SHOWS, 8.7);
-        bookmarks[1][3] = BookmarkManager.getInstance().createMovie(3004,"Ikiru",1952, new String[]{"Takashi Shimura","Minoru Chiaki"}, new String[]{"Akira Kurosawa"}, MovieGenre.FOREIGN_MOVIES, 8.4);
+        bookmarks[1][4] = BookmarkManager.getInstance().createMovie(3004,"Ikiru",1952, new String[]{"Takashi Shimura","Minoru Chiaki"}, new String[]{"Akira Kurosawa"}, MovieGenre.FOREIGN_MOVIES, 8.4);
     }
 
     public static void loadBooks(){

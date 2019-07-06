@@ -34,5 +34,5 @@ public class UserManager { //JVM loads class to mem and also initializes fields
 }
 
 /*
-* MVC - View --> Control --> Model(Manager --> Dao)
+* MVC - View <--> Control <--> Model(Manager <--> Dao) <--> Database
 * */
