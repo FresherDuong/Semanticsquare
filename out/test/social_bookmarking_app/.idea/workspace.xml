@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a01cd101-cdc1-4264-9ac6-968bbf52f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social_bookmarking_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/social_bookmarking_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,121 +18,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="114">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding>
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-              <folding>
-                <element signature="e#1164#1165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/controllers/BookmarkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/BookmarkDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/UserBookmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/Launch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,12 +72,13 @@
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/BookmarkDao.java" />
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java" />
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/Launch.java" />
-        <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" />
-        <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" />
+        <option value="$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java" />
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java" />
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java" />
+        <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/KidFriendlyStatus.java" />
+        <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" />
         <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java" />
-        <option value="$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java" />
+        <option value="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" />
       </list>
     </option>
   </component>
@@ -199,11 +90,141 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="constants" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="social_bookmarking_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="social_bookmarking_app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Hoc_Java/social_bookmarking_app" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="semanticsquare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thrillio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,7 +236,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebLinkTest.isKidFriendlyEligible">
+  <component name="RunManager" selected="Application.Launch">
     <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.semanticsquare.thrillio.Launch" />
       <module name="social_bookmarking_app" />
@@ -284,8 +304,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebLinkTest.isKidFriendlyEligible" />
         <item itemvalue="Application.Launch" />
+        <item itemvalue="JUnit.WebLinkTest.isKidFriendlyEligible" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +322,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WebLinkTest_isKidFriendlyEligible - 2019.07.07 at 15h 08m 03s.xml">
+      <configuration name="WebLinkTest.isKidFriendlyEligible" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLinkTest_isKidFriendlyEligible - 2019.07.07 at 15h 08m 28s.xml">
+      <configuration name="WebLinkTest.isKidFriendlyEligible" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLinkTest_isKidFriendlyEligible - 2019.07.07 at 15h 15m 11s.xml">
+      <configuration name="WebLinkTest.isKidFriendlyEligible" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebLinkTest_isKidFriendlyEligible - 2019.07.07 at 17h 00m 17s.xml">
+      <configuration name="WebLinkTest.isKidFriendlyEligible" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="49" y="27" width="1317" height="741" extended-state="6" />
     <editor active="true" />
@@ -311,7 +345,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23524784" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25098348" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3289689" />
@@ -374,30 +408,11 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/UserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/BookGenre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -427,13 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="128" lean-forward="true" selection-start-line="4" selection-start-column="104" selection-end-line="4" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -493,44 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/BookmarkDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -562,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-jupiter-api-5.5.0.jar!/org/junit/jupiter/api/Assertions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -583,10 +543,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/BookGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="304">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
@@ -596,8 +587,33 @@
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/KidFriendlyStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,13 +628,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/semanticsquare/thrillio/entities/WebLinkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="-30">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
           </folding>
         </state>
       </provider>

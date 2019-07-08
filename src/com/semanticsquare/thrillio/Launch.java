@@ -24,16 +24,16 @@ public class Launch {
     }
 
     private static void loadData(){
-        System.out.println("**Loading data ...");
+//        System.out.println("**Loading data ...");
         DataStore.loadData();
 
         users = UserManager.getInstance().getUser();
         bookmarks = BookmarkManager.getInstance().getBookmark();
 
-        System.out.println("Printing data ...");
-        printUserData();
-        System.out.println("Continuing ...");
-        printBookmarkData();
+//        System.out.println("Printing data ...");
+//        printUserData();
+//        System.out.println("Continuing ...");
+//        printBookmarkData();
     }
 
     public static void startBookmarking(){
@@ -43,8 +43,16 @@ public class Launch {
         }
     }
 
+    public static void startBrowsing(){
+        System.out.println("\n**Browsing ...");
+        for (User items: users) {
+            View.browse(items,bookmarks);
+        }
+    }
+
     public static void main(String[] args) {
         loadData();
-        startBookmarking();
+        //startBookmarking();
+        startBrowsing();
     }
 }

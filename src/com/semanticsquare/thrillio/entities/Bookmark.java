@@ -34,6 +34,14 @@ public abstract class Bookmark {
 
     public abstract boolean isKidFriendlyEligible();
 
+    public String getKidFriendlyStatus() {
+        return kidFriendlyStatus;
+    }
+
+    public void setKidFriendlyStatus(String kidFriendlyStatus) {
+        this.kidFriendlyStatus = kidFriendlyStatus;
+    }
+
     @Override
     public String toString() {
         return "Bookmark{" +

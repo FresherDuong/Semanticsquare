@@ -56,7 +56,7 @@ public class Book extends Bookmark {
         if(genre.equals(BookGenre.PHILOSOPHY) || genre.equals(BookGenre.SELF_HELP)){
             return false;
         }
-        return false;
+        return true;
     }
 
     @Override
