@@ -5,6 +5,7 @@ import com.semanticsquare.thrillio.entities.Bookmark;
 import com.semanticsquare.thrillio.entities.User;
 
 public class View {
+
     public static void bookmark(User users, Bookmark[][] bookmarks){
         System.out.println("User " + users.getEmail() + " is bookmarking");
         for(int i = 0; i < DataStore.USER_BOOKMARK_LIMIT; i++){
