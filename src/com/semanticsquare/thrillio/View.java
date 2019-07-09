@@ -5,6 +5,7 @@ import com.semanticsquare.thrillio.constants.UserType;
 import com.semanticsquare.thrillio.controllers.BookmarkController;
 import com.semanticsquare.thrillio.entities.Bookmark;
 import com.semanticsquare.thrillio.entities.User;
+import com.semanticsquare.thrillio.partner.Shareable;
 
 public class View {
 
@@ -43,20 +44,29 @@ public class View {
                     }
                 }
 
-                if(users.getUserType().equals(UserType.EDITOR)
-                        || users.getUserType().equals(UserType.CHIEF_EDITOR)){
-                    if(bookmark_items.isKidFriendlyEligible()
-                            && bookmark_items.getKidFriendlyStatus().equals(KidFriendlyStatus.UNKNOWN)){
+                if(users.getUserType().equals(UserType.EDITOR) || users.getUserType().equals(UserType.CHIEF_EDITOR)){
+                    //Marking as kid friendly by EDITOR and CHIEF_EDITOR
+                    if(bookmark_items.isKidFriendlyEligible() && bookmark_items.getKidFriendlyStatus().equals(KidFriendlyStatus.UNKNOWN)){
                         String kidFriendlyStatus =  getKidFriendlyStatusDecision();
                         if(!kidFriendlyStatus.equals(KidFriendlyStatus.UNKNOWN)){
-                            bookmark_items.setKidFriendlyStatus(kidFriendlyStatus);
+                            BookmarkController.getInstance().setKidFriendlyStatus(users, kidFriendlyStatus,bookmark_items);
+                        }
+                    }
 
-                            System.out.println("Kid friendly status: " + kidFriendlyStatus + " " + bookmark_items);
+                    //Sharing third-web.
+                    if(bookmark_items.getKidFriendlyStatus().equals(KidFriendlyStatus.APPROVED) && bookmark_items instanceof Shareable){
+                        boolean isShared = getShareDecision();
+                        if(isShared){
+                            BookmarkController.getInstance().share(users, bookmark_items);
                         }
                     }
                 }
             }
         }
+    }
+
+    private static boolean getShareDecision() {
+        return Math.random() > 0.5 ? true : false;
     }
 
     private static String getKidFriendlyStatusDecision() {

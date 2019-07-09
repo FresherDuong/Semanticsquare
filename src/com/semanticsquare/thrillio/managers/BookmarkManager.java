@@ -66,4 +66,24 @@ public class BookmarkManager {
 
         dao.saveUserBookmark(userBookmark);
     }
+
+    public void setKidFriendlyStatus(User user, String kidFriendlyStatus, Bookmark bookmark_items) {
+        bookmark_items.setKidFriendlyStatus(kidFriendlyStatus);
+        bookmark_items.setKidFriendlyMarkedBy(user);
+
+        System.out.println("Kid friendly status: " + kidFriendlyStatus + " Marked by: " + user.getEmail() + " " + user.getUserType() + " " + bookmark_items);
+    }
+
+    public void share(User users, Bookmark bookmark_items) {
+        bookmark_items.setSharedBy(users);
+
+        System.out.println("Data to be shared: ");
+        if(bookmark_items instanceof Book){
+            System.out.println("By user: " + users.getEmail()+ " " + users.getUserType() + " "  + ((Book) bookmark_items).getXMLItemData()); //Just print, third-web isn't available
+        }
+        else if(bookmark_items instanceof WebLink){
+            System.out.println("By user: " + users.getEmail()+ " " + users.getUserType() + " "  +((WebLink)bookmark_items).getXMLItemData());
+        }
+
+    }
 }
