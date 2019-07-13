@@ -4,6 +4,7 @@ import com.semanticsquare.thrillio.constants.*;
 import com.semanticsquare.thrillio.entities.*;
 import com.semanticsquare.thrillio.managers.BookmarkManager;
 import com.semanticsquare.thrillio.managers.UserManager;
+import com.semanticsquare.thrillio.util.IOUtil;
 
 public class DataStore {
     public static final int TOTAL_USER_COUNT = 5;
@@ -32,11 +33,32 @@ public class DataStore {
     }
 
     public static void loadUsers(){
+        /*
         users[0] = UserManager.getInstance().createUser(1000,"user0@semanticsquare.com","test","John","M", Gender.MAlE, UserType.USER);
         users[1] = UserManager.getInstance().createUser(1001,"user1@semanticsquare.com","test","Sam","M", Gender.MAlE, UserType.USER);
         users[2] = UserManager.getInstance().createUser(1002,"user2@semanticsquare.com","test","Anita","M", Gender.MAlE, UserType.EDITOR);
         users[3] = UserManager.getInstance().createUser(1003,"user3@semanticsquare.com","test","Sara","M", Gender.FEMAlE, UserType.USER);
         users[4] = UserManager.getInstance().createUser(1004,"user4@semanticsquare.com","test","Dheeru","M", Gender.MAlE, UserType.CHIEF_EDITOR);
+        */
+
+
+        String[] data = new String[TOTAL_USER_COUNT];
+        IOUtil.read(data,"User.txt");
+        int rowNum = 0;
+
+        for (String row: data) {
+            String[] value = row.split("\t");
+
+            int gender = Gender.MAlE;
+            if(value[5].equals("f")){
+                gender = Gender.FEMAlE;
+            }else if(value[5].equals("t")){
+                gender = Gender.TRANSGENDER;
+            }
+
+            users[rowNum++] = UserManager.getInstance().createUser(Long.parseLong(value[0]),value[1],value[2],value[3],value[4], gender, value[6]);
+        }
+
     }
 
     public static void loadWebLinks(){
