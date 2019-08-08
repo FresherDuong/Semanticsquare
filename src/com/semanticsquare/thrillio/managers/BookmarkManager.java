@@ -1,6 +1,9 @@
 package com.semanticsquare.thrillio.managers;
 
 import com.semanticsquare.thrillio.DataStore;
+import com.semanticsquare.thrillio.constants.BookGenre;
+import com.semanticsquare.thrillio.constants.KidFriendlyStatus;
+import com.semanticsquare.thrillio.constants.MovieGenre;
 import com.semanticsquare.thrillio.dao.BookmarkDao;
 import com.semanticsquare.thrillio.entities.*;
 import com.semanticsquare.thrillio.util.HttpConnect;
@@ -8,6 +11,7 @@ import com.semanticsquare.thrillio.util.IOUtil;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
+import java.util.List;
 
 public class BookmarkManager {
     private static BookmarkManager instance = new BookmarkManager();
@@ -20,7 +24,7 @@ public class BookmarkManager {
     }
 
     public Book createBook(long id, String title, /*String profileUrl,*/ int publicationYear,
-                           String publisher, String[] authors, String genre, double amazonRating){
+                           String publisher, String[] authors, BookGenre genre, double amazonRating){
         Book book = new Book();
 
         book.setId(id);
@@ -35,7 +39,7 @@ public class BookmarkManager {
     }
 
     public Movie createMovie(long id, String title, /*String profileUrl,*/ int releaseYear,
-                             String[] cast, String[] directors, String genre, double imdbRating){
+                             String[] cast, String[] directors, MovieGenre genre, double imdbRating){
         Movie movie = new Movie();
 
         movie.setId(id);
@@ -60,7 +64,7 @@ public class BookmarkManager {
         return webLink;
     }
 
-    public Bookmark[][] getBookmark(){
+    public List<List<Bookmark>> getBookmark(){
         return dao.getBookmark();
     }
 
@@ -91,7 +95,7 @@ public class BookmarkManager {
         dao.saveUserBookmark(userBookmark);
     }
 
-    public void setKidFriendlyStatus(User user, String kidFriendlyStatus, Bookmark bookmark_items) {
+    public void setKidFriendlyStatus(User user, KidFriendlyStatus kidFriendlyStatus, Bookmark bookmark_items) {
         bookmark_items.setKidFriendlyStatus(kidFriendlyStatus);
         bookmark_items.setKidFriendlyMarkedBy(user);
 

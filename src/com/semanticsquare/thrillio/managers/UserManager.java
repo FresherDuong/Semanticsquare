@@ -1,7 +1,11 @@
 package com.semanticsquare.thrillio.managers;
 
+import com.semanticsquare.thrillio.constants.Gender;
+import com.semanticsquare.thrillio.constants.UserType;
 import com.semanticsquare.thrillio.dao.UserDao;
 import com.semanticsquare.thrillio.entities.User;
+
+import java.util.List;
 
 public class UserManager { //JVM loads class to mem and also initializes fields
     private static UserManager instance = new UserManager();
@@ -15,7 +19,7 @@ public class UserManager { //JVM loads class to mem and also initializes fields
     }
 
     public User createUser(long id, String email, String password, String firstName,
-                           String lastName, int gender, String userType) {
+                           String lastName, Gender gender, UserType userType) {
         User user = new User();
         user.setId(id);
         user.setEmail(email);
@@ -27,7 +31,7 @@ public class UserManager { //JVM loads class to mem and also initializes fields
         return user;
     }
 
-    public User[] getUser(){
+    public List<User> getUser(){
         return dao.getUser();
     }
 

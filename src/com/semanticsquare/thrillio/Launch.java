@@ -5,9 +5,11 @@ import com.semanticsquare.thrillio.entities.User;
 import com.semanticsquare.thrillio.managers.BookmarkManager;
 import com.semanticsquare.thrillio.managers.UserManager;
 
+import java.util.List;
+
 public class Launch {
-    private static User[] users;
-    private static Bookmark[][] bookmarks;
+    private static List<User> users;
+    private static List<List<Bookmark>> bookmarks;
 
     private static void printUserData(){
         for (User items: users) {
@@ -16,7 +18,7 @@ public class Launch {
     }
 
     private static void printBookmarkData(){
-        for (Bookmark[] items1DArr: bookmarks) {
+        for (List<Bookmark> items1DArr: bookmarks) {
             for (Bookmark items: items1DArr) {
                 System.out.println(items);
             }
@@ -38,8 +40,8 @@ public class Launch {
 
     public static void startBookmarking(){
         System.out.println("\n**Bookmarking ...");
-        for (User items: users) {
-            View.bookmark(items,bookmarks);
+        for (User user: users) {
+            View.bookmark(user,bookmarks);
         }
     }
 
