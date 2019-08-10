@@ -1,5 +1,6 @@
 package com.semanticsquare.thrillio;
 
+import com.semanticsquare.thrillio.bgjobs.WebpageDownloaderTask;
 import com.semanticsquare.thrillio.entities.Bookmark;
 import com.semanticsquare.thrillio.entities.User;
 import com.semanticsquare.thrillio.managers.BookmarkManager;
@@ -56,5 +57,11 @@ public class Launch {
         loadData();
         //startBookmarking();
         startBrowsing();
+        runDownloaderJobs();
+    }
+
+    private static void runDownloaderJobs() {
+        WebpageDownloaderTask task = new WebpageDownloaderTask(true); //true: download all web links in system
+        (new Thread(task)).start();
     }
 }

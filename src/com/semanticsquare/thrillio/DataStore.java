@@ -32,6 +32,12 @@ public class DataStore {
         loadWebLinks();
         loadMovies();
         loadBooks();
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void loadUsers(){

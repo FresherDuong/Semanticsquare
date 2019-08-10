@@ -30,7 +30,6 @@ public class View {
     //
     public static void browse(User users, List<List<Bookmark>> bookmarks){
         System.out.println("\nUser " + users.getEmail() + " is browsing items ...");
-        int bookmarkCount = 0;
 
         for(List<Bookmark> bookmarks1 : bookmarks){
             for(Bookmark bookmark_items : bookmarks1){
@@ -38,7 +37,6 @@ public class View {
                 //if(bookmarkCount < DataStore.USER_BOOKMARK_LIMIT){ // Check for limitation
                     boolean isDesiredBookmarkDecision = getBookmarkDecision();
                     if(isDesiredBookmarkDecision){
-                        bookmarkCount++;
                         //Save to DB back-end
                         BookmarkController.getInstance().saveUserBookmark(users, bookmark_items);
 

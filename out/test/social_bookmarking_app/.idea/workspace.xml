@@ -2,56 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a01cd101-cdc1-4264-9ac6-968bbf52f418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/bgjobs/WebpageDownloaderTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Book.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Movie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/META-INF/social_bookmarking_app.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/DataStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/Launch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/Launch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/BookGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/BookGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/UserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/constants/UserType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/dao/BookmarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/dao/BookmarkDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/managers/BookmarkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/managers/BookmarkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/managers/UserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/managers/UserManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/util/IOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/util/IOUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/WebLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/social_bookmarking_app/com/semanticsquare/thrillio/entities/WebLink.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/Book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/Book.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/BookGenre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/BookGenre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/KidFriendlyStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/MovieGenre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/constants/UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/entities/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/entities/Bookmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/util/IOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/util/IOUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/pages_downloaded/2002.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/pages_downloaded/2002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages_downloaded/2002.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages_downloaded/2002.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/DataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/com/semanticsquare/thrillio/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/pages_downloaded/2002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/pages_downloaded/2004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/social_bookmarking_app/social_bookmarking_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/social_bookmarking_app/social_bookmarking_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages_downloaded/2002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages_downloaded/2004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/social_bookmarking_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/social_bookmarking_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/DataStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/Launch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/BookGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/KidFriendlyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/KidFriendlyStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/MovieGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/MovieGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/constants/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/controllers/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/controllers/BookmarkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/BookmarkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/BookmarkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Bookmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/managers/BookmarkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/managers/BookmarkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/managers/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/managers/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/util/IOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/util/IOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/semanticsquare/thrillio/entities/WebLink.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +59,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../executer_framework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -213,89 +184,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>social_bookmarking_app</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
